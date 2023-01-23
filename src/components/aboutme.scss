@@ -1,0 +1,213 @@
+@font-face {
+  font-family: imported;
+  src: url(../assets/NEONGLOW-Hollow.otf);
+}
+h1 {
+  font-family: imported;
+}
+.about-title h1 {
+  //font-family: imported;
+  color: #000;
+  font-size: 5em;
+}
+
+.about-container {
+  position: relative;
+  //   display: flex;
+  flex: 70%;
+  margin: 5% 5%;
+  justify-content: center;
+  align-items: center;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: #1111;
+  z-index: 3;
+}
+.about-container::before {
+  content: '';
+  border: #00b3ff solid 0.5em;
+  border-radius: 20px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: rgba(0, 0, 0, 0.514);
+  z-index: 2;
+}
+.about-container::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: #00b3ff63;
+  z-index: 1;
+  filter: blur(3em);
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.about-title h1 {
+  margin: 0.3em 0.3em 0.1em 0.3em;
+}
+
+h1.about-glow span {
+  position: relative;
+  color: #fff;
+  z-index: 15;
+  margin: 0em 0.3em;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px, 0 0 80px #00b3ff; //, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+
+  animation: animate-about 1.9s infinite calc(0.3s * var(--i));
+
+  animation-timing-function: steps(1, start);
+}
+
+@keyframes animate-about {
+  25% {
+    color: rgb(255, 0, 0);
+
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 180px #00b3ff; //, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  }
+
+  1% {
+    color: rgb(255, 0, 0);
+
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 180px #00b3ff; //, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+
+    //text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  }
+}
+
+.about-title h1.about-text {
+  position: absolute;
+}
+
+.about-title h1.about-text span {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 14;
+  margin: 0em 0.3em;
+  color: #333;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.desc-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-desc {
+  position: relative;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+  width: 100%;
+  z-index: 15;
+  margin: 3em 5em;
+  text-align: center;
+  //text-shadow: 0 0 10px #ffffff, 0 0 60px #ffffff;
+}
+
+//about picture
+.about-picture {
+  flex: 20%;
+  margin-top: 3%;
+}
+
+.picture {
+  width: 80%;
+  height: 40%;
+  position: relative;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+
+  z-index: 4;
+}
+
+.picture::before {
+  content: '';
+  border: #00b3ff solid 0.5em;
+  border-radius: 20px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  //background: rgba(0, 0, 0, 0.801);
+  z-index: 3;
+}
+
+.picture::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: #ff2525c5;
+  z-index: 1;
+  filter: blur(3em);
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+@media (max-width: 500px) {
+  .about-title h1 {
+    color: #000;
+    font-size: 2em;
+  }
+  .about-title h1 {
+    margin: 1.3em 0.3em 0.1em 0.3em;
+  }
+  .about-desc {
+    font-size: 0.6em;
+    margin: 3em 4em 4em 4em;
+    text-align: center;
+  }
+  .picture {
+    width: 50%;
+    height: 30%;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: 4;
+  }
+
+  .about-picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+  }
+
+  .about-container {
+    margin: 12% 5%;
+  }
+}
