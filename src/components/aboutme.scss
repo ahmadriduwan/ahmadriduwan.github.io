@@ -189,7 +189,7 @@ h1.about-glow span {
     text-align: center;
   }
   .picture {
-    width: 50%;
+    width: 40%;
     height: 30%;
     position: relative;
     top: -1px;
@@ -200,6 +200,7 @@ h1.about-glow span {
   }
 
   .about-picture {
+    // height: 80%;
     position: relative;
     display: flex;
     justify-content: center;

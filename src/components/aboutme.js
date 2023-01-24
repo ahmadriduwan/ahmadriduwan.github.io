@@ -1,5 +1,5 @@
 import '../components/aboutme.scss';
-import profile from '../assets/me.avif';
+import profile from '../assets/Me.jpg';
 
 export default function Aboutme() {
   return (
@@ -27,9 +27,9 @@ export default function Aboutme() {
         </div>
         <div className="desc-container">
           <p className="about-desc">
-            Hi, I'm Ahmad Riduwan, and I'm front-end developer. I started learning programming languages since 2015. I learned Java and made some small games. then I worked on a small project to help students help with their thesis. then
-            Lately, I discovered my interest in the world of web development and the beauty behind building websites, and I have been able to build web with React and vue just the way you want. I am currently looking for a junior dev
-            position to finally start my career and study among professionals to fulfill my dream of becoming a full-stack developer.
+            Hi, I'm Ahmad Riduwan, and I'm a front-end developer. I started learning programming languages since 2015. I learned Java and made some small games. then Lately, I've found my passion in the world of web development and the
+            beauty behind website building, and now I can build web with React Js and vue Js. I'm currently looking for a junior dev position to finally start my career and gain experience in professional circles to fulfill my dream of
+            becoming a full-stack developer.
           </p>
         </div>
       </div>
