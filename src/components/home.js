@@ -11,6 +11,7 @@ export default function Home() {
           <span style={{ '--i': 3, '--o': 1, '--u': 1.5 }}>R</span>
           <span style={{ '--i': 4, '--o': 1, '--u': 1 }}>E</span>
           <br />
+          <br />
           <span style={{ '--i': 5, '--o': 1.2, '--u': 1 }}>A</span>
           <span style={{ '--i': 6, '--o': 1.2, '--u': 1.5 }}>W</span>
           <span style={{ '--i': 7, '--o': 1.2, '--u': 1 }}>E</span>
@@ -25,6 +26,7 @@ export default function Home() {
           <span>U'</span>
           <span>R</span>
           <span>E</span>
+          <br />
           <br />
           <span>A</span>
           <span>W</span>

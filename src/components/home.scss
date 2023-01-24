@@ -161,6 +161,9 @@
     //flex-direction: column;
   }
   .header-title {
-    padding: 30% 0;
+    padding: 25% 0;
+  }
+  .header-title::before {
+    border-radius: 20px;
   }
 }

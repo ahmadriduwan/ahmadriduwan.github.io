@@ -144,7 +144,7 @@ h1.about-glow span {
 
 .picture::before {
   content: '';
-  border: #00b3ff solid 0.5em;
+  border: #9c0000 solid 0.5em;
   border-radius: 20px;
   position: absolute;
   top: -5px;
@@ -172,6 +172,7 @@ h1.about-glow span {
   height: 100%;
   position: relative;
   border-radius: 20px;
+  display: block;
   z-index: 2;
 }
 
