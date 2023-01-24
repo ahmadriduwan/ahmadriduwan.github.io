@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ahmadriduwan.github.io/static/css/main.ce98ab04.css",
+    "main.js": "/ahmadriduwan.github.io/static/js/main.5fa652a0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ahmadriduwan.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/wall.avif": "/ahmadriduwan.github.io/static/media/wall.56ea6361a12dcd323734.avif",
+    "static/media/NEONGLOW-Hollow.otf": "/ahmadriduwan.github.io/static/media/NEONGLOW-Hollow.0a7982fa6aa4e6688b4b.otf",
+    "static/media/me.avif": "/ahmadriduwan.github.io/static/media/me.108bfa5cc2906bd598b4.avif",
+    "index.html": "/ahmadriduwan.github.io/index.html",
+    "main.ce98ab04.css.map": "/ahmadriduwan.github.io/static/css/main.ce98ab04.css.map",
+    "main.5fa652a0.js.map": "/ahmadriduwan.github.io/static/js/main.5fa652a0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ahmadriduwan.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce98ab04.css",
+    "static/js/main.5fa652a0.js"
+  ]
+}
