@@ -6,8 +6,20 @@ import { Link, Outlet } from 'react-router-dom';
 
 function App() {
   const [state, setState] = useState(false);
+  const [state2, setState2] = useState(false);
   const setclick = () => {
     setState(!state);
+    setState2(true);
+  };
+
+  const setActive = () => {
+    if (state == false && state2 == false) {
+      return '';
+    } else if (state == false && state2 == true) {
+      return ' nonactive';
+    } else if (state == true && state2 == true) {
+      return ' active';
+    }
   };
 
   // const setFoods = () => {
@@ -21,7 +33,7 @@ function App() {
   return (
     <Fragment>
       {/* {test()} */}
-      <header>
+      <header className={setActive()}>
         <div className="logo">
           <Link to="/">Ahmad Riduwan</Link>
         </div>
@@ -34,7 +46,7 @@ function App() {
           <div className="line"></div>
         </div>
         <nav>
-          <div className={state ? 'navbar active' : 'navbar'}>
+          <div className={'navbar ' + setActive()}>
             <ul class="menuItems">
               <li>
                 <Link
@@ -57,7 +69,7 @@ function App() {
                   to="/gallery"
                   data-item="gallery"
                 >
-                  Gallery
+                  Project
                 </Link>
               </li>
             </ul>

@@ -1,4 +1,6 @@
 import '../components/home.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faShuttleSpace } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -36,6 +38,12 @@ export default function Home() {
           <span>M</span>
           <span>E</span>
         </h1>
+      </div>
+      <div className="homeIcon">
+        <span>
+          <FontAwesomeIcon icon={faShuttleSpace} />
+        </span>
+        {/* // <FontAwesomeIcon icon="fa-solid fa-envelope" /> */}
       </div>
       <div className="test"></div>
     </section>
